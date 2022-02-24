@@ -1,0 +1,29 @@
+n=int(input('enter n'))
+l=[]
+for i in range(n):
+     x=int(input ())
+     l.append(x)
+Prime=[]
+Count=0
+for i in l:
+    C=0
+     for j in range(1,i):
+         if i%j==0:
+            c+=1
+     if c==1:
+        Prime.append(i)
+        Count+=1
+Print('prime number is:',prime)
+Print('count:',count)
+
+
+Output:
+6
+1
+2
+3
+4
+5
+6
+Prime number is:[2,3,5]
+Count:3
